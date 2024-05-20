@@ -19,3 +19,5 @@ Look into GAMES directory.<br />
 # How to use the downloader?
 Use it like `./downloader -g <gameid>`.<br />
 Note: `./downloader` can be little bit different for you.<br />
+
+# BETA!!!
