@@ -106,7 +106,7 @@ if (fs.existsSync(TerminalArcadeDirectory)) {
             }
             fs.writeFileSync(path.resolve(GamePath, GameConfiguration.FileTargets[element]), FileContent);
         }
-        console.log("Succesfully installed!\nAt linux you maybe need to make the file executeable.\nBye and happy playing the games!");
+        console.log("Succesfully installed!\nThe file is located in '"+GamePath+"'.\nAt linux you maybe need to make the file executeable.\nBye and happy playing the games!");
     } catch (err) {
         console.error("An Error got caught while installing the game!");
         console.error(err);
