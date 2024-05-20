@@ -3,7 +3,7 @@ var path = require(`path`);
 const crypto = require('crypto');
 const yargs = require(`yargs/yargs`);
 
-const ServerPath = "http://127.0.0.1:52322";
+const ServerPath = "https://raw.githubusercontent.com/PFK0815/TerminalArcade/main/";
 
 const { hideBin } = require('yargs/helpers');
 const argv = yargs(hideBin(process.argv))
@@ -13,11 +13,11 @@ const argv = yargs(hideBin(process.argv))
         type: 'string',
         demandOption: true,
     })
-    .option('update', {
+    /*.option('update', {
         describe: 'Enable to update.',
         type: 'boolean',
         default: false,
-    })
+    })*/
     .option('ignorehash', {
         describe: 'Enable to disable hash check.',
         type: 'boolean',
@@ -106,6 +106,7 @@ if (fs.existsSync(TerminalArcadeDirectory)) {
             }
             fs.writeFileSync(path.resolve(GamePath, GameConfiguration.FileTargets[element]), FileContent);
         }
+        console.log("Succesfully installed!\nAt linux you maybe need to make the file executeable.\nBye and happy playing the games!");
     } catch (err) {
         console.error("An Error got caught while installing the game!");
         console.error(err);
