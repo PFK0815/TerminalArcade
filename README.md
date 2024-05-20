@@ -1,9 +1,9 @@
 # TerminalArcade
 Here are games avaiable for my TerminalArcade games.<br />
+Just download the the downloader.<br />
+Then use it, it can install all other games based on your platform automatically.<br />
 
 # Note
-Just download the the downloader.
-Then use it, it can install all other games based on your platform automatically.<br />
 For bugs/errors ingame or with the downloader, contact me at GitHub.<br />
 That's not an virus!: At my windows 10 laptop, Avast antivirus alerted detected with Cybercapture. I think it is because the downloader downloads other files.<br />
 That's not an virus!: Sure pack or run the JavaScript file yourself, that will work too.
