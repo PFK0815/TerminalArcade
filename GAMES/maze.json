@@ -1,0 +1,36 @@
+{
+    "EXECS": {
+        "linux": "/EXECUTEABLES/linux/maze",
+        "darwin": "/EXECUTEABLES/darwin/maze",
+        "win32": "/EXECUTEABLES/win32/maze.exe"
+    },
+    "OtherFiles":[
+        "/FILES/maze/levels/0001.1. StarterLevel.WithHelp.json",
+        "/FILES/maze/levels/0001. StarterLevel.json",
+        "/FILES/maze/levels/0002. The Ultimative difficuilt maze.json",
+        "/FILES/maze/levels/0003. MazeMaker.js maze.json"
+    ],
+    "FileTargets":{
+        "SUBDIRECTORYS":[
+            "levels"
+        ],
+        "/EXECUTEABLES/linux/maze":"maze",
+        "/EXECUTEABLES/darwin/maze":"maze",
+        "/EXECUTEABLES/win32/maze.exe":"maze.exe",
+
+        "/FILES/maze/levels/0001.1. StarterLevel.WithHelp.json": "levels/0001.1. StarterLevel.WithHelp.json",
+        "/FILES/maze/levels/0001. StarterLevel.json": "levels/0001. StarterLevel.json",
+        "/FILES/maze/levels/0002. The Ultimative difficuilt maze.json": "levels/0002. The Ultimative difficuilt maze.json",
+        "/FILES/maze/levels/0003. MazeMaker.js maze.json": "levels/0003. MazeMaker.js maze.json"
+    },
+    "HASHES": {
+        "/EXECUTEABLES/linux/maze": "90e9a2853fe133eaaedd223c366b0195d6d27bc56b85f10f6273d268b16def6b",
+        "/EXECUTEABLES/darwin/maze": "34b1f8ab04e544ccb5280b93e78cc5b84f768588026453eab46a734f4eb795bf",
+        "/EXECUTEABLES/win32/maze.exe": "d7a636e5fe724988357510629df2cb215dfd020e90ae31bc422467ed92a4d66d",
+
+        "/FILES/maze/levels/0001.1. StarterLevel.WithHelp.json": "1ed5e07ea59a9ae4f70a0419981060770db23b642c0233ef23f033dc68c7b8d7",
+        "/FILES/maze/levels/0001. StarterLevel.json": "fb06443ce2e785768a8d0711dc729acf3be431c57a876be4d24b858217002d58",
+        "/FILES/maze/levels/0002. The Ultimative difficuilt maze.json": "bd1293437489cfdb450ebf5be37d2b2279eaaddf78ac2de8fc914139f27e4131",
+        "/FILES/maze/levels/0003. MazeMaker.js maze.json": "3e284887a24226e345a5d9c4461f90ac15d7dcdc06884362274de8e37c565715"
+    }
+}
