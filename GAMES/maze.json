@@ -24,9 +24,9 @@
         "/FILES/maze/levels/0003. MazeMaker.js maze.json": "levels/0003. MazeMaker.js maze.json"
     },
     "HASHES": {
-        "/EXECUTEABLES/linux/maze": "bde89a58ab10f1ffdc30d84ee8a1962f2ca74acda4e91c2b9df3abb9c4661fb6",
-        "/EXECUTEABLES/darwin/maze": "78ad1ec7176b84888fb89cc907a7df562adcdaa1ab00377c2c0553b04ba67dca",
-        "/EXECUTEABLES/win32/maze.exe": "7e5ee70c0974c5c79b01a6ca50735558e5ce92e9127704c06b44d64b4dd55c0e",
+        "/EXECUTEABLES/linux/maze": "d89d11b5471c33583c0b2f4151c8b620a8d0d673a6ae3cc954fb40fcc15318b6",
+        "/EXECUTEABLES/darwin/maze": "63608a202bdda461890a372fec82de8149a82bdfcbcde6033e9d26e1485d4153",
+        "/EXECUTEABLES/win32/maze.exe": "4a75de972fc56a56dda3a487963f80dd5414ddf5f77d9876f2160723e9bbb33e",
 
         "/FILES/maze/levels/0001.1. StarterLevel.WithHelp.json": "1ed5e07ea59a9ae4f70a0419981060770db23b642c0233ef23f033dc68c7b8d7",
         "/FILES/maze/levels/0001. StarterLevel.json": "fb06443ce2e785768a8d0711dc729acf3be431c57a876be4d24b858217002d58",
