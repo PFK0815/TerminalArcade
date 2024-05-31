@@ -88,7 +88,7 @@ if (fs.existsSync(TerminalArcadeDirectory)) {
             throw ("ERROR: Server answered not 200 OK!\nAnswer: " + `${EXECUTEABLE__RESPONSE.status} ${EXECUTEABLE__RESPONSE.statusText}`);
         }
         const EXECUTEABLE = Buffer.from(await EXECUTEABLE__RESPONSE.arrayBuffer());
-        if ((!argv.ignorehash) && sha256(EXECUTEABLE) !== GameConfiguration.HASHES[GameConfiguration.EXECS[platform]]) {
+        if ((!argv.ignorehash) && GameConfiguration.HASHES[element] !== null && sha256(EXECUTEABLE) !== GameConfiguration.HASHES[GameConfiguration.EXECS[platform]]) {
             throw ("The downloaded file does not match the sha256 sum!\n");
         }
         fs.writeFileSync(path.resolve(GamePath, GameConfiguration.FileTargets[GameConfiguration.EXECS[platform]]), EXECUTEABLE);
@@ -101,7 +101,7 @@ if (fs.existsSync(TerminalArcadeDirectory)) {
                 throw ("ERROR: Server answered not 200 OK!\nAnswer: " + `${FileResponse.status} ${FileResponse.statusText}`);
             }
             const FileContent = Buffer.from(await FileResponse.arrayBuffer());
-            if ((!argv.ignorehash) && sha256(FileContent) !== GameConfiguration.HASHES[element]) {
+            if ((!argv.ignorehash) && GameConfiguration.HASHES[element] !== null && sha256(FileContent) !== GameConfiguration.HASHES[element]) {
                 throw ("The downloaded file does not match the sha256 sum!\n");
             }
             fs.writeFileSync(path.resolve(GamePath, GameConfiguration.FileTargets[element]), FileContent);
