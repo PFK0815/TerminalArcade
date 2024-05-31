@@ -326,7 +326,7 @@ function StartLevel(levelid) {
     STDOUT__FUNCTIONS.CURSORTO(41, 0);
     STDOUT__FUNCTIONS.COLOR("White");
     STDOUT__FUNCTIONS.COLOR("BackgroundBlack")
-    STDOUT__FUNCTIONS.WRITE("Controls:\nWASD: Move the player.\nQ: Quit level.\nR: Restart level.");
+    STDOUT__FUNCTIONS.WRITE("Controls:\nArrow Keys: Move the player.\nQ: Quit level.\nR: Restart level.");
 }
 
 function ExitLevel(levelid) {
