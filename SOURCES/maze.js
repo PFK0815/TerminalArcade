@@ -324,6 +324,8 @@ function StartLevel(levelid) {
     STDOUT__FUNCTIONS.WRITE("\x1b[31m\u2588\u2588");
 
     STDOUT__FUNCTIONS.CURSORTO(41, 0);
+    STDOUT__FUNCTIONS.COLOR("White");
+    STDOUT__FUNCTIONS.COLOR("BackgroundBlack")
     STDOUT__FUNCTIONS.WRITE("Controls:\nWASD: Move the player.\nQ: Quit level.\nR: Restart level.");
 }
 
